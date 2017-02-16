@@ -14,7 +14,7 @@ fi
 
 echo '=====stop uwsgi'
 chmod +x mmsite-master-bak/config/stop.sh
-./mmsite-master/config/stop.sh
+./mmsite-master-bak/config/stop.sh
 
 if [ -d "mmsite-master" ] ; then
     rm mmsite-master -rf
